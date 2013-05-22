@@ -25,32 +25,32 @@ function get_gw2_infos(url, global_var, callback) {
 // Return events for a given world
 function get_gw2_events(world_id, callback) {
 	get_gw2_infos(url_world_names, servers, function() {
-			get_gw2_infos(url_event_names, events, function() {
-					get_gw2_infos(url_map_names, maps, function() {
+		get_gw2_infos(url_event_names, events, function() {
+			get_gw2_infos(url_map_names, maps, function() {
 
-						var request = url_events + '?world_id=' + world_id;
-						var events_on_world = [];
+				var request = url_events + '?world_id=' + world_id;
+				var events_on_world = [];
 
-						$.getJSON(request, function(data) {
-							var i = 0;
+				$.getJSON(request, function(data) {
+				var i = 0;
 
-							$(data['events']).each(function(){
-								map_name = get_matching_name(data['events'][i]['map_id'], maps);
-								map_id = data['events'][i]['map_id'];
-								event_name = get_matching_name(data['events'][i]['event_id'], events);
-								event_status = data['events'][i]['state'];
+				$(data['events']).each(function(){
+					map_name = get_matching_name(data['events'][i]['map_id'], maps);
+					map_id = data['events'][i]['map_id'];
+					event_name = get_matching_name(data['events'][i]['event_id'], events);
+					event_status = data['events'][i]['state'];
 
-								events_on_world.push( [event_name, event_status, map_name, map_id] );
-								i++;
-							});
+					events_on_world.push( [event_name, event_status, map_name, map_id] );
+					i++;
+				});
 							
-							// Finally return the events
-							callback(events_on_world);
+				// Finally return the events
+				callback(events_on_world);
 
-						});
+				});
 
-					})
 			})
+		})
 	});
 }
 
