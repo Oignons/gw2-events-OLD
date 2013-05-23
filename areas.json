@@ -1,0 +1,132 @@
+[
+	{
+		"id" : 34,
+		"name" : "Caledon forest",
+		"neLat" : 2.3553, "neLng" : -37.9578, "swLat" : -26.3722, "swLng" : -51.7945
+	},
+	{
+		"id" : 35,
+		"name" : "Metrica Province",
+		"neLat" : -5.55664, "neLng" : -51.8445, "swLat" : -29.793, "swLng" : -67.8406
+	},
+	{	
+		"id" : 19,
+		"name" : "Plains of Ashford",
+		"neLat" : 19.9956, "neLng" : 94.2297, "swLat" : 5.47383, "swLng" : 64.5727
+	},
+	{
+		"id" : 28,
+		"name" : "Wayfarer Foothills",
+		"neLat" : 35.1109, "neLng" : 52.7454, "swLat" : 3.9629, "swLng" : 39.5239
+	},
+	{
+		"id" : 15,
+		"name" : "Queensdale",
+		"neLat" : 33.3856, "neLng" : -22.067, "swLat" : 16.1064, "swLng" : -48.2739
+	},
+	{
+		"id" : 54,
+		"name" : "Brisban Wildlands",
+		"neLat" : 13.4324, "neLng" : -51.8445, "swLat" : -5.50664, "swLng" : -76.8933
+	},
+	{
+		"id" : 32,
+		"name" : "Diessa Plateau",
+		"neLat" : 35.1109, "neLng" : 79.3323, "swLat" : 20.0456, "swLng" : 52.7954
+	},
+	{
+		"id" : 23,
+		"name" : "Kessex Hills",
+		"neLat" : 16.0564, "neLng" : -22.067, "swLat" : 2.4053, "swLng" : -51.7945
+	},
+	{	
+		"id" : 31,
+		"name" : "Snowden Drifts",
+		"neLat" : 35.1109, "neLng" : 39.4739, "swLat" : 22.6039, "swLng" : 9.01484
+	},
+	{
+		"id" : 24, 
+		"name" : "Gendarran Fields",
+		"neLat" : 28.758, "neLng" : 8.96484, "swLat" : 15.1327, "swLng" : -22.0166
+	},
+	{
+		"id" : 27, 
+		"name" : "Lornar's Pass",
+		"neLat" : 22.5539, "neLng" : 22.5549, "swLat" : -13.2293, "swLng" : 9.01484
+	},
+	{	
+		"id" : 21, 
+		"name" : "Fields of Ruin",
+		"neLat" : 0.686064, "neLng" : 112.896, "swLat" : -21.0537, "swLng" : 91.0986
+	},
+	{
+		"id" : 17, 
+		"name" : "Harathi Hinterlands",
+		"neLat" : 45.0347, "neLng" : 1.49414, "swLat" : 28.8, "swLng" : -22.0166
+	},
+	{
+		"id" : 20, 
+		"name" : "Blazeridge Steppes",
+		"neLat" : 29.1426, "neLng" : 108.853, "swLat" : 0.736064, "swLng" : 94.2627
+	},
+	{
+		"id" : 26,
+		"name" : "Dredgehaunt Cliffs",
+		"neLat" : 10.3325, "neLng" : 39.4739, "swLat" : -13.2293, "swLng" : 22.6049
+	},
+	{
+		"id" : 73,
+		"name" : "Bloodtide Coast",
+		"neLat" : 4.1492, "neLng" : 8.96484, "swLat" : -19.8287, "swLng" : -8.62427
+	},
+	{
+		"id" : 25,
+		"name" : "Iron Marches",
+		"neLat" : 45.2207, "neLng" : 94.2297, "swLat" : 20.025, "swLng" : 79.3823
+	},
+	{
+		"id" : 29,
+		"name" : "Timberline Falls",
+		"neLat" : -13.3148, "neLng" : 35.376, "swLat" : -34.7769, "swLng" : 18.7427
+	},
+	{
+		"id" : 53,
+		"name" : "Sparkfly Fen",
+		"neLat" : -19.8787, "neLng" : 9.97559, "swLat" : -40.5223, "swLng" : -9.27246
+	},
+	{
+		"id" : 22,
+		"name" : "Fireheart Rise",
+		"neLat" : 50.043, "neLng" : 79.3323, "swLat" : 35.1828, "swLng" : 54.2395
+	},
+	{
+		"id" : 39,
+		"name" : "Mount Maelstrom",
+		"neLat" : -34.8409, "neLng" : 38.2544, "swLat" : -47.8648, "swLng" : 10.0256
+	},
+	{
+		"id" : 51,
+		"name" : "Straits of Devastation",
+		"neLat" : -40.5639, "neLng" : 9.97559, "swLat" : -54.2473, "swLng" : -14.3591
+	},
+	{
+		"id" : 30,
+		"name" : "Frostgorge Sound",
+		"neLat" : 51.3923, "neLng" : 54.2725, "swLat" : 35.1609, "swLng" : 28.2349
+	},
+	{
+		"id" : 65,
+		"name" : "Malchor's Leap",
+		"neLat" : -44.5513, "neLng" : -14.4091, "swLat" : -54.2473, "swLng" : -43.8135
+	},
+	{
+		"id" : 62,
+		"name" : "Cursed Shore",
+		"neLat" : -54.2973, "neLng" : -31.4868, "swLat" : -68.4678, "swLng" : -46.0327
+	},
+	{
+		"id" : 873,
+		"name" : "Southsun Cove",
+		"neLat" : -19.1452, "neLng" : -16.7871, "swLat" : -29.4587, "swLng" : -34.9365
+	}
+]
