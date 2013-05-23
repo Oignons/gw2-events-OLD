@@ -11,11 +11,9 @@ var events = []; //id, name
 // Return infos
 function get_gw2_infos(url, global_var, callback) {
 	$.getJSON(url, function(data) {
-		var i = 0;
 
-		$(data).each(function(){
-			global_var.push(data[i]);
-			i++;
+		$(data).each(function(iterator) {
+			global_var.push(data[iterator]);
 		});
 
 		callback();
@@ -32,9 +30,8 @@ function get_gw2_events(world_id, callback) {
 				var events_on_world = [];
 
 				$.getJSON(request, function(data) {
-				var i = 0;
 
-				$(data['events']).each(function(){
+				$(data['events']).each(function(i){
 					map_name = get_matching_name(data['events'][i]['map_id'], maps);
 					map_id = data['events'][i]['map_id'];
 					event_name = get_matching_name(data['events'][i]['event_id'], events);
@@ -59,5 +56,5 @@ function get_matching_name(id, array) {
 	for(var it=0; it<array.length; it++) {
 		if (array[it]['id'] == id) return array[it]['name'];
 	}
-	return 'unknown';
+	return 'unknown'; //Never happens
 }
