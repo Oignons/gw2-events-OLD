@@ -1,4 +1,6 @@
-// Print scroll
+// Global
+var gw2map;
+
 $(function(){
 
 	// Display the list of servers :
@@ -13,6 +15,10 @@ $(function(){
 				i++;
 			});
 	});
+
+	//Display the map
+	gw2map = new Map();
+	gw2map.initMap();
 });
 
 function load_events() {
@@ -25,6 +31,8 @@ function load_events() {
 		for(var i=0; i<events_list.length; i++) {
 			results_html += '<br/>'+events_list[i][1]+' : On '+events_list[i][2]+' : '+events_list[i][0];
 		}
-		$('#results').html(results_html);
+
+		// Display on the screen
+		gw2map.showEvents(events_list);
 	});
 }
