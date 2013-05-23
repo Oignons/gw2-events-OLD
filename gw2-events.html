@@ -2,17 +2,38 @@
 	<head>
 		<title>GW2 Events</title>
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.5/leaflet.css' />
+		<script src='http://cdn.leafletjs.com/leaflet-0.5/leaflet.js'></script>
+		<link rel='stylesheet' href='./main.css' />
+
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 	</head>
 
 	<body>
 
-		<select id='servers_list' onchange='load_events();'>
-			<option selected>GW2 Servers : loading...</option>
-		</select>
+		<div id='options'>
+			<select id='servers_list' onchange='load_events();'>
+				<option selected>GW2 Servers : loading...</option>
+			</select>
+			Show active events : <input type='checkbox' name='active_events' value='active_events' id='active_events' />
+			Show inactive events : <input type='checkbox' name='warmup_events' value='warmup_events' id='warmup_events' />
+			Show succeeded events : <input type='checkbox' name='succeeded_events' value='succeeded_events' id='succeeded_events' />
+			Show failed events : <input type='checkbox' name='failed_events' value='failed_events' id='failed_events' />
+			Show events in preparation : <input type='checkbox' name='preparation_events' value='preparation_events' id='preparation_events' />
 
-		<div id='results'></div>
+			<span id='decoration'></span>
+		</div>
+
+
+		<div id='map'></div>
+
+		<div id='footer'>
+			<a href='https://github.com/Oignons/gw2-events'>Project on Github</a> | 
+			<a href='http://gw2cartographers.com/'>GW2 Cartographers</a>
+		</div>
 
 		<script src='./get_events.js'></script>
+		<script src='./map.js'></script>
 		<script src='./core.js'></script>
 	</body>
 </html>
