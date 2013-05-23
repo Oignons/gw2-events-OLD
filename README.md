@@ -3,6 +3,12 @@ About
 
 A simple event tracker for GW2 using their API.
 
+Use
+===
+
+Just select a server on the left top corner of the page and check the boxes to show or not events on the map.
+
+Preview (won't work because request for the API don't work here) : http://htmlpreview.github.io/?https://github.com/Oignons/gw2-events/blob/master/gw2-events.html
 
 Copyright
 ========
