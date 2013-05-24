@@ -23,8 +23,6 @@ $(function(){
 
 function load_events() {
 	// Display events 
-	$('#results').html('Loading events ...');
-
 	get_gw2_events($('#servers_list').find(':selected').val(), function(events_list) {
 		var results_html = "";
 		console.log(events_list);
