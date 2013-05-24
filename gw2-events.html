@@ -15,11 +15,11 @@
 			<select id='servers_list' onchange='load_events();'>
 				<option selected>GW2 Servers : loading...</option>
 			</select>
-			Show active events : <input type='checkbox' name='active_events' value='active_events' id='active_events' />
-			Show inactive events : <input type='checkbox' name='warmup_events' value='warmup_events' id='warmup_events' />
-			Show succeeded events : <input type='checkbox' name='succeeded_events' value='succeeded_events' id='succeeded_events' />
-			Show failed events : <input type='checkbox' name='failed_events' value='failed_events' id='failed_events' />
-			Show events in preparation : <input type='checkbox' name='preparation_events' value='preparation_events' id='preparation_events' />
+			<span class='event_active'>Show active events : <input type='checkbox' name='active_events' value='active_events' id='active_events' /></span>
+			<span class='event_warmup'>Show inactive events : <input type='checkbox' name='warmup_events' value='warmup_events' id='warmup_events' /></span>
+			<span class='event_success'>Show succeeded events : <input type='checkbox' name='succeeded_events' value='succeeded_events' id='succeeded_events' /></span>
+			<span class='event_fail'>Show failed events : <input type='checkbox' name='failed_events' value='failed_events' id='failed_events' /></span>
+			<span class='event_preparation'>Show events in preparation : <input type='checkbox' name='preparation_events' value='preparation_events' id='preparation_events' /></span>
 
 			<span id='decoration'></span>
 		</div>
