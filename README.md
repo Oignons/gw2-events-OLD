@@ -8,7 +8,8 @@ Use
 
 Just select a server on the left top corner of the page and check the boxes to show or not events on the map.
 
-Preview : http://gw2-events.ueuo.com/gw2-events.html
+GitHub Pages : http://oignons.github.io/gw2-events/
+Preview : http://oignons.github.io/gw2-events/gw2-events.html
 
 Future of the project
 =====================
