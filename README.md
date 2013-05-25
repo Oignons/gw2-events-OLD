@@ -8,7 +8,12 @@ Use
 
 Just select a server on the left top corner of the page and check the boxes to show or not events on the map.
 
-Preview (won't work because request for the API don't work here) : http://htmlpreview.github.io/?https://github.com/Oignons/gw2-events/blob/master/gw2-events.html
+Preview : http://gw2-events.ueuo.com/gw2-events.html
+
+Future of the project
+=====================
+
+I'll add some features and optimizations. If ANet does not want to give us the precise location of the events, I'll probably create a community tool where everyone would be able to indicate events on the map in order to add them to the final map.
 
 Copyright
 ========
